@@ -1,0 +1,114 @@
+/*navbar css*/
+
+.navbar-nav li {
+    padding: 0 15px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/*navbar css end*/
+
+/*media start*/
+@media(max-width:768px) {
+    .navbar {
+        background: #020306f0 !important;
+    }
+
+    .navbar-nav li a {
+        color: #fff !important;
+        font-weight: 700;
+        font-size: 15px;
+    }
+}
+
+/*media end*/
+
+/* home css start */
+.a {
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+    color: darkorange;
+}
+
+footer {
+    background: #000000;
+    padding: 50px;
+    color: #fff;
+
+}
+
+.ml-1 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    font-size: 2rem;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.footer p {
+    color: white;
+}
+
+/* home css end */
+
+/*about css start*/
+.e {
+
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+
+    margin: 0 70px;
+    text-align: center;
+}
+
+/*about css end*/
+.b {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+    color: darkorange;
+    padding: 10px 0;
+}
+
+.bb {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 2px;
+}
+
+.aboutd {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.aboutdd {
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 20px;
+    font-weight: lighter;
+    padding-bottom: 2cm;
+}
+li {
+    border: 1px solid darkorange;
+    border-radius: 10px;
+    margin: 5px;
+}
+li:hover{
+    background: lightcoral;
+}
